@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'cyberpunk';
+    src: url(Fonts/Cyberpunk.ttf);
+}
+body{
+    background:linear-gradient(to right,#05d6d9,#f907fc);
+    text-align: center;
+}
+
+.head h1{
+    font-family: 'cyberpunk',sans-serif;
+    color: #ffd300;
+    font-size:100px;
+    text-shadow:8px 15px black;
+}
+.head p{
+    font-family: serif;
+    font-size: medium;
+    color: white;
+}
+.teams{
+    background-color: #f6feff40;
+    color: white;
+    width: 80%;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+}
+.team{
+    display:flex;
+}
+.card{
+    border-radius: 10px;
+    padding-top: 5px;
+    width: 310px;
+    background-color: white;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.card img{
+    width: 300px;
+    border-radius: 5px;
+}
+.usr-name{
+    font-weight: bold;
+}
+
+.social{
+    list-style: none;
+    padding: 0px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.social li {
+    margin:0 5px;
+}
+.social li img{
+    width: 24px;
+
+}
