@@ -5,6 +5,8 @@
 body{
     background:linear-gradient(to right,#05d6d9,#f907fc);
     text-align: center;
+    padding: 0px;
+    margin: 0px;
 }
 
 .head h1{
@@ -29,6 +31,7 @@ body{
 }
 .team{
     display:flex;
+    justify-content: center;
 }
 .card{
     border-radius: 10px;
@@ -36,8 +39,7 @@ body{
     width: 310px;
     background-color: white;
     color: black;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 10px;
 
 }
 .card img{
@@ -61,4 +63,27 @@ body{
 .social li img{
     width: 24px;
 
+}
+
+.footer{
+    margin: 0px;
+    padding: 0px;
+    margin-top: 5px;
+    display: grid;
+    background-color:#00000095 ;
+    color: white;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.footer ul{
+    list-style: none;
+    text-align: left;
+    margin-left: 10%;
+}
+footer{
+    background-color: black;
+    color: white;
+}
+.GCOEN-logo{
+    width: 80%;
+    margin-top: 10px;
 }
