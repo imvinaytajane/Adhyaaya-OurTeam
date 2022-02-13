@@ -24,14 +24,45 @@ body{
 
 .header h1{
     font-family: 'cyberpunk',sans-serif;
-    padding: 20px 0 40px 0;
-    margin-bottom: 3px;
-    color: #ffd300;
+    margin-bottom: 40px;
+    padding-top: 20px;
     font-size:70px;
-    text-shadow:8px 15px black;
+    -webkit-box-reflect:below 1px linear-gradient(transparent,#ffd30020);
+    line-height: 0.7em;
+    outline: none;
+    animation: animate 5s linear infinite;
+}
+@keyframes animate{
+    0%,18%,20%,50.1%,60%,65.1%,80%,90.1%,92%
+    {
+        color: #ffda08;
+        text-shadow: none;
+    }
+    10.1%,20.1%,30%,50%,60.1%,65%,80.1%,90%,92.1%,100%
+    {
+        color: #fff;
+        text-shadow:0 0 10px #ffe874,
+        0 0 20px #ffe874,
+        0 0 40px #ffe874,
+        0 0 80px #ffe874,
+        0 0 160px #ffe874,
+
+    }
 }
 .header p{
     color: white;
+    font-size: 24px;
+    font-family:cursive;
+}
+
+.team {
+    color: white;
+    margin-top: 30px;
+    font-size: 10px;
+}
+.team-name {
+    font-family: 'Redressed';
+    font-size: 50px;
 }
 
 .swiper{
@@ -40,11 +71,6 @@ body{
     justify-content: center;
     align-items: center;
     z-index: 1;
-}
-
-.swiper-slide{
-    color: white;
-    background-color: #ffd30020;
 }
 
 .swiper .swiper-slide{
@@ -60,8 +86,4 @@ body{
     border-left: 1px solid rgba(255, 255, 255, 0.5);
     /* backdrop-filter: blur(5px); */
     
-}
-
-.swiper-slide h1{
-    background-color:#ffd30020;
 }

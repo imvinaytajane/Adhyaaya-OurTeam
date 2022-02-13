@@ -18,50 +18,34 @@
         <p>Meet the People who worked countless hours behind the scenes to bring you the Spectacle, that is India's
             biggest Techno-Managerial Fest.</p>
     </div>
-
-
-
-    <!-- Swiper -->
-    <div class="swiper mySwiper">
-        <div class="swiper-wrapper">
-            <div class="swiper-slide">
-                <img src="./img/user.svg" />
-                <h1>User Name 01</h1>
+    <div class="team">
+        <h1 class="team-name">Coordinators</h1>
+        <!-- Swiper -->
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="./img/user.svg" />
+                    <h1>Yash Bhagat</h1>
+                </div>
+                <div class="swiper-slide">
+                    <img src="./img/user02.png" />
+                    <h1>Ujjwal Gupta</h1>
+                </div>
+                <div class="swiper-slide">
+                    <img src="./img/user03.png" />
+                    <h1>Arya Mahashabde</h1>
+                </div>
+                <div class="swiper-slide">
+                    <img src="./img/user02.png" />
+                    <h1>Laksh Bahl</h1>
+                </div>
+                <div class="swiper-slide">
+                    <img src="./img/user.svg" />
+                    <h1>Nikhil Deshpande</h1>
+                </div>
             </div>
-            <div class="swiper-slide">
-                <img src="./img/user02.png" />
-                <h1>User Name 02</h1>
-            </div>
-            <div class="swiper-slide">
-                <img src="./img/user.svg" />
-                <h1>User Name 03</h1>
-            </div>
-            <div class="swiper-slide">
-                <img src="./img/user.svg" />
-                <h1>User Name 04</h1>
-            </div>
-            <div class="swiper-slide">
-                <img src="./img/user03.png" />
-                <h1>User Name 05</h1>
-            </div>
-            <div class="swiper-slide">
-                <img src="./img/user.svg" />
-                <h1>User Name 06</h1>
-            </div>
-            <div class="swiper-slide">
-                <img src="./img/user.svg" />
-                <h1>User Name 07</h1>
-            </div>
-            <div class="swiper-slide">
-                <img src="./img/user02.png" />
-                <h1>User Name 08</h1>
-            </div>
-            <div class="swiper-slide">
-                <img src="./img/user.svg" />
-                <h1>User Name 09</h1>
-            </div>
+            <div class="swiper-pagination"></div>
         </div>
-        <div class="swiper-pagination"></div>
     </div>
 
 
@@ -88,6 +72,17 @@
                 el: ".swiper-pagination",
             },
         });
+    </script>
+
+    <!--Vanila tilt-->
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script>
+        VanillaTilt.init(document.querySelectorAll(".swiper-slide"), {
+		max: 25,
+		speed: 400,
+        glare:true,
+        "max-glare":0.5,
+	});
     </script>
 </body>
 
