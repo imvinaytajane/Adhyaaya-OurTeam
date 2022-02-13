@@ -76,6 +76,7 @@ body{
     transform: scale(1.1);
     transition-duration: 1s;
     padding-bottom: 15px;
+    position:sticky;
   }
 .card img{
     width: 300px;
@@ -118,9 +119,10 @@ body{
     position: sticky;
     top: 100%;
 }
+
 .footer ul{
     list-style: none;
-    text-align: left;
+    /* text-align: left; */
     margin-left: 10%;
     padding:0 70px;
     margin: 10px;
@@ -133,6 +135,23 @@ footer{
     top: 100%;
 }
 .GCOEN-logo{
-    width: 80%;
-    margin-top: 10px;
+    width: 200px;
+    margin: 10px;
 }
+
+
+/* Media Queries */
+
+@media screen and (max-width: 1080px) {
+    .footer {
+      grid-template-columns: 1fr 1fr;
+    }
+    @media screen and (max-width: 480px) {
+        .head h1 {
+            font-size: 50px;
+        }
+        .footer {
+          grid-template-columns: 1fr;
+        }
+      }    
+  }
