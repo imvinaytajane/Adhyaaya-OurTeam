@@ -7,15 +7,21 @@
     font-family: 'cyberpunk';
     src: url(Fonts/Cyberpunk.ttf);
 }
+@font-face {
+    font-family: 'Redressed';
+    src: url(./Fonts/Redressed-Regular.ttf);
+}
 body{
     background:linear-gradient(to right,#05d6d9,#f907fc);
     text-align: center;
     align-items: center;
+    cursor:default;
 }
 
 .head h1{
     font-family: 'cyberpunk',sans-serif;
     padding: 20px 0 40px 0;
+    margin-bottom: 3px;
     color: #ffd300;
     font-size:100px;
     text-shadow:8px 15px black;
@@ -36,14 +42,21 @@ body{
     margin-right: auto;
     padding: 15px;
 }
+.teams h1{
+    font-family: 'Redressed';
+
+}
 .team-container{
     display:flex;
     justify-content: center;
+    /* height: 450px; */
+    flex-wrap: wrap;
 }
 .card{
     border-radius: 10px;
     padding-top: 5px;
     width: 310px;
+    height: 350px;
     box-shadow: 5px 5px 20px black;
     background-color: white;
     color: black;
@@ -53,12 +66,15 @@ body{
 }
 .card:hover{
     cursor: pointer;
-    background-color: #f907fc;
-    transition-duration: 1.5s;
+    background-color: #00000020;
+    height: 385px;
+    transition-duration: 1s;
+    transform: scale(1.1);
   }
   .card:hover img{
-    transform: scale(.9);
+    transform: scale(1.1);
     transition-duration: 1s;
+    padding-bottom: 15px;
   }
 .card img{
     width: 300px;
