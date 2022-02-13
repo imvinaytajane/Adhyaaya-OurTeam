@@ -12,146 +12,23 @@
     src: url(./Fonts/Redressed-Regular.ttf);
 }
 body{
-    background:linear-gradient(to right,#05d6d9,#f907fc);
+    background-image: url(./img/bg.png);
     text-align: center;
     align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     cursor:default;
     height: 100vh;
 }
 
-.head h1{
+.header h1{
     font-family: 'cyberpunk',sans-serif;
     padding: 20px 0 40px 0;
     margin-bottom: 3px;
     color: #ffd300;
-    font-size:100px;
+    font-size:70px;
     text-shadow:8px 15px black;
 }
-.head p{
-    font-family: serif;
-    font-size:25px;
+.header p{
     color: white;
 }
-.teams{
-    background-color: #f6feff40;
-    color: white;
-    width: 80%;
-    border-radius: 5px;
-    margin-top: 10px;
-    margin-bottom: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 15px;
-}
-.teams h1{
-    font-family: 'Redressed';
-
-}
-.team-container{
-    display:flex;
-    justify-content: center;
-    /* height: 450px; */
-    flex-wrap: wrap;
-}
-.card{
-    border-radius: 10px;
-    padding-top: 5px;
-    width: 310px;
-    height: 350px;
-    box-shadow: 5px 5px 20px black;
-    background-color: white;
-    color: black;
-    margin: 10px;
-    overflow: hidden;
-
-}
-.card:hover{
-    cursor: pointer;
-    background-color: #00000020;
-    height: 385px;
-    transition-duration: 1s;
-    transform: scale(1.1);
-  }
-  .card:hover img{
-    transform: scale(1.1);
-    transition-duration: 1s;
-    padding-bottom: 15px;
-    position:sticky;
-  }
-.card img{
-    width: 300px;
-    border-radius: 5px;
-}
-.usr-name{
-    font-weight: bold;
-}
-
-.social{
-    list-style: none;
-    padding: 0px;
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    visibility: hidden;
-    opacity: 0;
-}
-.card:hover .social{
-    visibility: visible;
-    opacity: 1;
-    transition-duration: 1s;
-  }
-.social li {
-    margin:0 5px;
-}
-.social li img{
-    width: 24px;
-
-}
-
-.footer{
-    margin: 0px;
-    padding: 0px;
-    padding: 10px;
-    display: grid;
-    background-color:#00000095 ;
-    color: white;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    position: sticky;
-    top: 100%;
-}
-
-.footer ul{
-    list-style: none;
-    /* text-align: left; */
-    margin-left: 10%;
-    padding:0 70px;
-    margin: 10px;
-}
-footer{
-    background-color: black;
-    padding: 3px;
-    color: white;
-    position: sticky;
-    top: 100%;
-}
-.GCOEN-logo{
-    width: 200px;
-    margin: 10px;
-}
-
-
-/* Media Queries */
-
-@media screen and (max-width: 1080px) {
-    .footer {
-      grid-template-columns: 1fr 1fr;
-    }
-    @media screen and (max-width: 480px) {
-        .head h1 {
-            font-size: 50px;
-        }
-        .footer {
-          grid-template-columns: 1fr;
-        }
-      }    
-  }
