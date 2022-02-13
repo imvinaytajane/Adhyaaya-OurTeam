@@ -16,6 +16,7 @@ body{
     text-align: center;
     align-items: center;
     cursor:default;
+    height: 100vh;
 }
 
 .head h1{
@@ -114,6 +115,8 @@ body{
     background-color:#00000095 ;
     color: white;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    position: sticky;
+    top: 100%;
 }
 .footer ul{
     list-style: none;
@@ -126,6 +129,8 @@ footer{
     background-color: black;
     padding: 3px;
     color: white;
+    position: sticky;
+    top: 100%;
 }
 .GCOEN-logo{
     width: 80%;
