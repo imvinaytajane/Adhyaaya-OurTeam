@@ -68,6 +68,8 @@ body{
 .team-name {
     font-family: 'Redressed';
     font-size: 50px;
+    text-shadow:0 0 10px #fff,
+    0 0 20px #fff;
 }
 
 .swiper{
@@ -92,10 +94,43 @@ body{
     
 }
 .swiper-slide h1{
-    margin-top: 4px;
+    margin-top: 10px;
 }
 .social{
     display: flex;
     justify-content: center;
+    justify-items: center;
     list-style: none;
+    visibility: hidden;
+    opacity: 0;
 }
+
+box-icon{
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+
+/* Hover*/
+
+.swiper-slide:hover .social{
+    visibility: visible;
+    opacity: 1;
+    transition-duration: 1s;
+}
+box-icon:hover{
+    transform: scale(1.5);
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 1080px) {
+    
+    }
+    @media screen and (max-width: 480px) {
+        body{
+            background-image: url(./img/bg2.png);
+        }
+
+         
+  }
