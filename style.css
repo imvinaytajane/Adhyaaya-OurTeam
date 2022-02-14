@@ -132,6 +132,9 @@ box-icon:hover{
             background-image: url(./img/bg2.png);
             
         }
+        .header h1{
+            font-size: 40px;
+        }
         .social{
             visibility: visible !important;
             opacity: 1 !important;
