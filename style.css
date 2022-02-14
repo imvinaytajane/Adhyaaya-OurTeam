@@ -2,19 +2,10 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family:'Matrix','Courier New', Courier, monospace;
-}
-@font-face {
-    font-family: 'cyberpunk';
-    src: url(Fonts/Cyberpunk.ttf);
 }
 @font-face {
     font-family: 'Redressed';
     src: url(./Fonts/Redressed-Regular.ttf);
-}
-@font-face {
-    font-family: 'Matrix';
-    src: url(./Fonts/matrix.ttf);
 }
 body{
     background-image: url(./img/bg.png);
@@ -25,10 +16,11 @@ body{
     background-repeat: no-repeat;
     cursor:default;
     height: 100vh;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .header h1{
-    font-family: 'cyberpunk',sans-serif;
+    /* font-family: ; */
     margin-bottom: 40px;
     padding-top: 20px;
     font-size:70px;
@@ -58,7 +50,8 @@ body{
     color: white;
     font-size: 24px;
     font-family:cursive;
-    padding: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 .team {
@@ -69,8 +62,9 @@ body{
 .team-name {
     font-family: 'Redressed';
     font-size: 50px;
-    text-shadow:0 0 10px #fff,
-    0 0 20px #fff;
+    text-shadow:
+    0 0 10px #fff,
+    0 0 2px #fff;
 }
 
 .swiper{
