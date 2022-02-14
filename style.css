@@ -130,6 +130,11 @@ box-icon:hover{
     @media screen and (max-width: 480px) {
         body{
             background-image: url(./img/bg2.png);
+            
+        }
+        .swiper-slide{
+            visibility: visible;
+            opacity: 1;
         }
 
          
