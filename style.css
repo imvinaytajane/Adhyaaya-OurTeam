@@ -32,21 +32,21 @@ body{
     outline: none;
     animation: animate 5s linear infinite;
 }
+/* Tubelight Glow Effect */
 @keyframes animate{
     0%,18%,20%,50.1%,60%,65.1%,80%,90.1%,92%
     {
-        color: #ffda08;
+        color: #ffd300;
         text-shadow: none;
     }
     10.1%,20.1%,30%,50%,60.1%,65%,80.1%,90%,92.1%,100%
     {
         color: #fff;
-        text-shadow:0 0 10px #ffe874,
-        0 0 20px #ffe874,
-        0 0 40px #ffe874,
-        0 0 80px #ffe874,
-        0 0 160px #ffe874,
-
+        text-shadow:0 0 10px #ffd300,
+        0 0 20px #ffd300,
+        0 0 40px #ffd300,
+        0 0 80px #ffd300,
+        0 0 160px #ffd300;
     }
 }
 .header p{
