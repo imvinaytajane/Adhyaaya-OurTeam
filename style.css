@@ -11,6 +11,10 @@
     font-family: 'Revamped';
     src: url(./Fonts/Revamped.otf);
 }
+@font-face {
+    font-family: 'Honey';
+    src: url(./Fonts/Honey-Florist.otf);
+}
 
 html {
   scroll-behavior: smooth;
@@ -57,8 +61,8 @@ body{
 }
 .header p{
     color: white;
-    font-size: 24px;
-    font-family:cursive;
+    font-size: 40px;
+    font-family:'Honey';
     padding: 50px;
     padding-bottom:0;
 }
@@ -116,7 +120,11 @@ box-icon{
 
 
 /* Hover*/
-
+.swiper-slide:hover h1{
+    text-shadow:0 0 10px rgb(54, 225, 255),
+    0 0 20px rgb(54, 225, 255),
+    0 0 40px rgb(54, 225, 255);
+}
 .swiper-slide:hover .social{
     visibility: visible;
     opacity: 1;
