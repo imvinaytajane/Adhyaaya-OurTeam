@@ -147,6 +147,11 @@ box-icon:hover{
         .header h1{
             font-size: 40px;
         }
+        .header p{
+            font-size: 24px;
+            padding: 10px;
+            padding-bottom:0;
+        }
         .social{
             visibility: visible !important;
             opacity: 1 !important;
